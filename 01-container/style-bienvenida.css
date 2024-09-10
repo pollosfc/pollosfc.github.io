@@ -1,0 +1,35 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Usa toda la pantalla */
+  background-image: url('../01-container/gris-fondo.png'); /* Ruta de la imagen de fondo */
+  background-size: cover;
+  background-position: center;
+}
+
+.in-development-text {
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  backdrop-filter: blur(5px);
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente detrás del texto */
+}
+
+.image-container {
+  margin-top: 20px; /* Espacio entre el texto y la imagen */
+}
+
+.image-container img {
+  max-width: 150px; /* Ajusta el tamaño de la imagen */
+}
