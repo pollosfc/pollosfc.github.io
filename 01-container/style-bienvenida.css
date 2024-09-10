@@ -33,3 +33,34 @@ section {
 .image-container img {
   max-width: 150px; /* Ajusta el tamaño de la imagen */
 }
+
+/* Cambia el fondo a negro */
+#disqus_thread {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Cambia el color del texto */
+#disqus_thread .post-message, #disqus_thread .post-header, #disqus_thread .post-footer {
+    color: #fff;
+}
+
+/* Cambia el color del texto de los comentarios */
+#disqus_thread a, #disqus_thread .comment-body, #disqus_thread .comment-message {
+    color: #fff;
+}
+
+/* Cambia el color del input de comentarios */
+#disqus_thread input, #disqus_thread textarea {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+/* Cambia el botón de envío */
+#disqus_thread .btn {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+}
+
